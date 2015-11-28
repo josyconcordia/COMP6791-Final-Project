@@ -1,0 +1,52 @@
+P3 --- Final Project
+Project 3 --- Final Project
+
+Due Date: This project has to be demonstrated during the tutorial time December 7, 8, 9. It has to be submitted on December 7, 2015. This project counts for 25% of the grade. It is a team project to be developed in groups of 3.
+
+Description:
+starting from a given set of root web pages, crawl the web for links (you may use crawling tools such as Websphinx but you may also find other tools, such as NYUcrawl. Describe and attribute any borrowings. Make sure you obey the standard for robot exclusion. Your crawler MUST accept as part of its input an upper bound on the total number of files to be downloaded. In developing, testing, and debugging, this number should be kept as SMALL as possible. Develop your own closed test set of HTML files for testing and debugging.) 
+
+
+
+collect the pages 
+(optional) remove duplicates 
+index  (use tf-idf and any indexer you like. Lucene is allowed, as is your classmates' code.) 
+using the sentiment dictionary aFinn, analyze a document for sentiment, using this simple way to use aFinn in Python for sentiment analysis.
+use this simple sentiment analysis on the documents of your crawl and answewr the questions given below.
+
+
+
+Root web page to be used: http://www.concordia.ca/encs.html ;
+Questions to answer:
+Which is the most positive Department in ENCS at Concordia?
+Is Computer Science and Software Engineering more positive or less positive than Electrical and Computer Engineering?
+Rank the departments in ENCS by sentiment of their web documents
+Classify the departments in ENCS with a three way classifier into positive, negative, and neutral
+Classify the additional mystery page results the same way and compare its dominant sentiment. 
+
+
+
+Evaluation criteria: in the week before the demos we will give you another start page to run your system on in addition to ENCS. For the demo you have to demonstrate the (precompiled) results of your system when starting from either root page. You have some flexibility in designing your system. 
+
+Note that the assignment does not make practical sense: while each part is a practical step in some system, the overall result is merely designed to make you exercise notions of the course over (hopefully) a manageable subset of the web. We will add further specifications and clarifications as the course progresses. Keep checking this site for updates. You have to know the behavior of your system well and you have to convince us of its strengths during the demo. 
+
+
+
+Additional questions to answer on the written final report: 
+what was the hardest step?
+how big is the index?
+what observations did you make during your experiments?
+what did you learn from your experience? 
+
+
+
+Objectives: To exercise and implement ideas from the course. In particular to experience on a small scale the variety of documents encountered on the web, the issues with extracting information, but also to index and classify a document collection that is not homogenous and not known before the project. The clarity of the design, the use of algorithms covered in class, ample documentation, observation of issues arising and their creative solution, as well as the resulting understanding of the questions asked and of the course material in general all influence the grade. In addition, we will ask to demonstrate system components during the final demo, such as crawling, indexing, and clustering. Note that you should ensure functionality on a subset of accessible pages first, if including all linked pages overwhelmes your setup. Any limitations have to be clearly discussed in your report. 
+
+
+
+Deliverables: Everything has to be in Moodle:
+code
+the index
+
+
+the final report has to document the design of the code and report on the experiments, the results, and answer the questions specified above and has to be submitted in hardcopy format as well as electronically
